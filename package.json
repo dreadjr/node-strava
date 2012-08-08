@@ -6,8 +6,9 @@
   "keywords": ["strava", "api"],
   "main" : "./strava",
   "dependencies": {
-    "request": ">=2.9.3",
-    "async": "0.1.22"
+    "request": "*",
+    "async": "*",
+    "qs": "*"
   },
   "repository" : {"type": "git" , "url": "https://github.com/dreadjr/node-strava.git" },
   "engines": { "node": ">=0.4.6" }
