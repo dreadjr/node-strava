@@ -1,0 +1,14 @@
+{
+  "name": "node-strava",
+  "description": "Strava API client",
+  "version": "0.0.1",
+  "author": "dreadjr",
+  "keywords": ["strava", "api"],
+  "main" : "./strava",
+  "dependencies": {
+    "request": ">=2.9.3",
+    "async": "0.1.22"
+  },
+  "repository" : {"type": "git" , "url": "https://github.com/dreadjr/node-strava.git" },
+  "engines": { "node": ">=0.4.6" }
+}
